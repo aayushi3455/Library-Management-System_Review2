@@ -3,6 +3,72 @@
 A fully-featured, GUI-based Library Management System built in Java using Swing for the interface and MySQL for the database. This system enables book and member management, issue/return operations, real-time dashboard analytics, PDF export, and more — all designed using best practices in software development.
 
 ---
+📂 Project Structure
+
+LibraryManagementSystem/
+• src/main/java/lms/gui/
+
+  MainFrame.java
+  
+  BookPanel.java
+  
+  StudentPanel.java
+  
+  IssuePanel.java
+  
+  ReturnPanel.java
+  
+  DashboardPanel.java
+
+• src/main/java/lms/db/
+
+  DBConnection.java
+
+• src/main/java/lms/model/
+
+  Book.java
+  
+  Student.java
+  
+  Transaction.java
+
+• src/main/java/lms/dao/
+
+  BookDAO.java
+  
+  StudentDAO.java
+  
+  TransactionDAO.java
+
+• src/main/java/lms/util/
+
+  Validator.java
+  
+  PDFExporter.java
+  
+  ChartHelper.java
+  
+
+• src/main/resources/icons/
+
+  (icons and images used in the GUI)
+
+• lib/
+
+  mysql-connector-java.jar
+  
+  pdfbox.jar
+
+• LMS.sql – MySQL database schema
+
+• LMS.jar – Executable JAR file
+
+• README.md – Project documentation
+
+• LMS_Documentation.docx – Full report and guide
+
+• screenshots/ – GUI screenshots (login.png, dashboard.png, etc.)
+
 
 ## ✅ Project Guidelines Followed
 
